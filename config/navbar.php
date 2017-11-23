@@ -33,10 +33,17 @@ return [
                 "title" => t("About this website")
             ],
 
-            "gallery" => [
-                "text"  => t("Gallery"),
-                "url"   => $this->di->get("url")->create("gallery"),
-                "title" => t("A little gallery")
+
+            "grid" => [
+                "text"  => t("Grid"),
+                "url"   => $this->di->get("url")->create("grid"),
+                "title" => t("A grid example")
+            ],
+
+            "typography" => [
+                "text"  => t("Typography"),
+                "url"   => $this->di->get("url")->create("typography"),
+                "title" => t("A typography example")
             ],
 
         ],
@@ -44,7 +51,7 @@ return [
 
 
 
-/*
+
     // Used as menu together with responsive menu
     // Name of this menu
     "navbarMax" => [
@@ -56,11 +63,35 @@ return [
         // Here comes the menu structure
         "items" => [
 
+            "home" => [
+                "text"  => t("Home"),
+                "url"   => $this->di->get("url")->create("index"),
+                "title" => t("Home")
+            ],
+
             "report" => [
                 "text"  => t("Report"),
                 "url"   => $this->di->get("url")->create("report"),
                 "title" => t("Reports from kmom assignments"),
                 "mark-if-parent" => true,
+            ],
+
+            "gallery" => [
+                "text"  => t("Gallery"),
+                "url"   => $this->di->get("url")->create("gallery"),
+                "title" => t("Gallery page")
+            ],
+
+            "grid" => [
+                "text"  => t("Grid"),
+                "url"   => $this->di->get("url")->create("grid"),
+                "title" => t("Grid")
+            ],
+
+            "typography" => [
+                "text"  => t("Typography"),
+                "url"   => $this->di->get("url")->create("typography"),
+                "title" => t("Typography")
             ],
 
             "about" => [
@@ -70,7 +101,7 @@ return [
             ],
         ],
     ],
-*/
+
 
 
     /**
