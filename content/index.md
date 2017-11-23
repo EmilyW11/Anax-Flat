@@ -1,7 +1,7 @@
 ---
 titleBreadcrumb: Home
 ...
-Emily's me-sida
+Welcome!
 ===============================
 
 <div class="front-image"><img src="img/emily1.JPG" alt="emily"></div>

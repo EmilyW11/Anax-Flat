@@ -1,7 +1,6 @@
-
-
 Gallery
 ===============================
+
 <div class="gallery-row">
     <h2>Utah</h2>
     <p><img src="img/utah1.jpg" alt="utah"></a>
@@ -10,7 +9,7 @@ Gallery
     <p><img src="img/utah2.jpg" alt="utah"></a>
         <span class="caption">Bear Lake</span>
     </p>
-    <p><img src="img/utah3.JPG" alt="utah"></a>
+    <p><img src="img/utah3.jpg" alt="utah"></a>
         <span class="caption">Canyon Lands</span>
     </p>
 </div>
